@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import About from "./components/Skills";
-import Projects from "./components/Projects";
+import Projetos from "./components/Projetos";
 import Footer from "./components/Footer";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
+      <Projetos />
       <Footer />
     </>
   );

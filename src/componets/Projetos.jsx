@@ -1,10 +1,83 @@
-function Hero() { //cria a função do hero
+function Projetos() { //cria a função do hero
   return (
-    <section id="intro" class="test">
-    <h1>Nat<span class="h1a">halie</span> <span class="h1b">Drabik</span></h1>
-    <p>Front-End Developer com background em Design Gráfico, localizada em Curitiba, Paraná.</p>
+    <section id="projects">
+    <h2>Projetos</h2>
+    <div class="grid">
+      <a href="https://natdrabik.github.io/" target="_blank">
+      <article>
+        <figure>
+          <img src="assets/images/natdrabik.png" alt="Thumbnail Portfolio"/>
+        </figure>
+          <div class="info">
+        <h3>Portfólio profissional</h3>
+        <h4>2026</h4>
+        <p>Projeto pessoal, desenvolvido com HTML, CSS e animações em GSAP</p>
+        </div>
+      </article>
+      </a>
+      <a href="https://ninfa.com.br/" target="_blank">
+      <article>
+        <figure>
+          <img src="assets/images/ninfa.png" alt="Thumbnail Ninfa"/>
+        </figure>
+        <div class="info">
+        <h3>Ninfa</h3>
+        <h4>2025</h4>
+        <p>Wordpress com tema personalizado. Desenvolvido na agência Housecricket.</p>
+        </div>
+      </article>
+      </a>
+      <a href="https://www.eurosul.com/" target="_blank">
+      <article>
+        <figure>
+          <img src="assets/images/eurosul.png" alt="Thumbnail Eurosul"/>
+        </figure>
+        <div class="info">
+          <h3>Eurosul</h3>
+          <h4>2025</h4>
+        <p>Wordpress com Woocommerce e tema personalizado. Desenvolvido na agência Housecricket.</p>
+        </div>
+      </article>
+      </a>
+      <a href="https://fundacaogrupoboticario.org.br/" target="_blank">
+      <article>
+        <figure>
+          <img src="assets/images/fgb.png" alt="Thumbnail Fundação Grupo Boticário"/>
+        </figure>
+        <div class="info">
+        <h3>Fundação Grupo Boticário</h3>
+        <h4>2024</h4>
+        <p>Wordpress com tema e blocos personalizados. Desenvolvido na agência Housecricket.</p>
+        </div>
+      </article>
+      </a>
+      <a href="https://www.senff.com.br/" target="_blank">
+      <article>
+        <figure>
+          <img src="assets/images/senff.png" alt="Thumbnail Banco Senff"/>
+        </figure>
+        <div class="info">
+          <h3>Banco Senff</h3>
+          <h4>2023</h4>
+          <p>Wordpress com tema e blocos personalizados. Desenvolvido na agência Housecricket.</p>
+              </div>
+      </article>
+      </a>
+      <a href="https://www.grupoboticario.com.br/" target="_blank">
+      <article>
+        <figure>
+          <img src="assets/images/gb.png" alt="Thumbnail Grupo Boticário"/>
+        </figure>
+        <div class="info">
+          <h3>Grupo Boticário</h3>
+          <h4>2022</h4>
+          <p>Wordpress multisite com tema e blocos personalizados. Desenvolvido na agência Housecricket.</p>
+        </div>
+      </article>
+      </a>
+      </div>
   </section>
   );
 }
 
-export default Hero; //exporta a função do hero
+export default Projetos; //exporta a função do hero
