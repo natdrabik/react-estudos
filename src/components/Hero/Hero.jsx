@@ -1,7 +1,7 @@
 function Hero() { //cria a função do hero
   return (
-    <section id="intro" class="test">
-    <h1>Nat<span class="h1a">halie</span> <span class="h1b">Drabik</span></h1>
+    <section id="intro">
+    <h1>Nat<span className="h1a">halie</span> <span className="h1b">Drabik</span></h1>
     <p>Front-End Developer com background em Design Gráfico, localizada em Curitiba, Paraná.</p>
   </section>
   );

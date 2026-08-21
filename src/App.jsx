@@ -4,6 +4,7 @@ import Sobre from "./components/Sobre";
 import Skills from "./components/Skills";
 import Projetos from "./components/Projetos";
 import Footer from "./components/Footer";
+import './App.scss'
 
 function App() {
   return (
