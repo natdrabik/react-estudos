@@ -1,5 +1,7 @@
+@use '../../styles/colors' as *;
+
 #intro {
-  background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
+    background: radial-gradient(circle at 50% 10%, var(--primary-a0) 15%, #000 100%);
 
   p {
     font-size: 16px;
