@@ -1,39 +1,24 @@
-function Skills() { //cria a função do hero
+import './Skills.scss';
+
+import skills from './skillsData'; //chama os dados dos cards
+import SkillCard from './SkillCard/SkillCard'; //chama a estrutura dos cards
+
+function Skills() { //cria a função das skills
   return (
     <section id="skills">
-        <h2>Habilidades</h2>
-        <ul>
-      <li>
-        
-        <h3>HTML5</h3>
-      </li>
-      <li>
-        
-        <h3>CSS3</h3></li>
-      <li>
-        
-        <h3>Javascript</h3></li>
-      <li>
-        
-        <h3>Wordpress</h3></li>
-      <li>
-       
-        <h3>UX/UI</h3>
-      </li>
-      <li>
-     
-        <h3>Acessibilidade W3C</h3>
-      </li>
-      <li>
-        
-        <h3>SEO</h3>
-      </li>
-      <li>
-
-        <h3>Git</h3></li>
-    </ul>
-  </section>
+      <h2>Habilidades</h2>
+      <ul>
+        {skills.map((skill) => (
+          <SkillCard
+            key={skill.name} //serve para o react identificar o elemento, deve ser único para cada item
+            name={skill.name}
+            icon={skill.icon}
+          />
+        ))}
+      
+      </ul>
+    </section>
   );
 }
 
-export default Skills; //exporta a função do hero
+export default Skills; //exporta a função das skills
