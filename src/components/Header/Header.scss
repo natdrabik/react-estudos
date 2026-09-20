@@ -29,8 +29,8 @@
   }
 }
 
-nav {
-  display: none;
+#menu {
+  display: flex;
   ul {
     display: flex;
     list-style: none;
@@ -55,7 +55,7 @@ nav {
       display: block;
     } 
   }
-  nav {
+  #menu {
   position: fixed;
   justify-content: center;
   display: flex;
@@ -73,7 +73,7 @@ nav {
     display: none;
   }
 
-  nav {
+  #menu {
     position: fixed;
     justify-content: flex-end;
     display: flex;
@@ -97,7 +97,7 @@ nav {
     }
   }
 
-  .has-menu nav {
+  .has-menu #menu {
     position: fixed;
     justify-content: flex-end;
     display: flex;

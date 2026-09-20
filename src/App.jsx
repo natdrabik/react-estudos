@@ -1,15 +1,16 @@
-// import Header from "./components/Header/Header";
+import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
-// import Projetos from "./components/Projetos/Projetos";
-// import Footer from "./components/Footer/Footer";
+import Projetos from "./components/Projetos/Projetos";
+import Footer from "./components/Footer/Footer";
 // import './App.scss'
 
 function App() {
   return (
     <>
       <article>
+        <Header />
         <Hero
         description="Front-End Developer com background em Design Gráfico, localizada em Curitiba, Paraná."
       />
@@ -21,6 +22,8 @@ function App() {
         </About>
 
          <Skills />
+         <Projetos />
+         <Footer />
       </article>
     </>
   );

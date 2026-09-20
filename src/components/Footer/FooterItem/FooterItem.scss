@@ -1,0 +1,29 @@
+#links {
+    li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 1.5cqw;
+  }
+
+  svg, img {
+    height: 8cqw;
+    width: 8cqw;
+    flex: 0 0 8cqw;
+    filter: brightness(0) saturate(100%) invert(47%) sepia(92%) saturate(252%) hue-rotate(221deg) brightness(81%) contrast(92%);
+  }
+}
+
+@media (min-width: 600px) {
+    #links {
+    svg, img {
+      height: 2cqw;
+      width: 2cqw;
+      flex: 0 0 2cqw;
+      /* height: 5cqw; 
+      flex: 0 0 5cqw; */
+    }
+
+  }
+}

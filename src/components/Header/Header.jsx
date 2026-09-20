@@ -1,3 +1,5 @@
+import './Header.scss';
+
 function Header() { //cria a função do header
   return (
     <article>

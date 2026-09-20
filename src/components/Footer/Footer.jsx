@@ -1,29 +1,18 @@
-function Footer() { //cria a função do hero
+import './Footer.scss';
+
+import footer from './footerData'; //chama os dados dos cards
+import FooterItem from './FooterItem/FooterItem'; //chama a estrutura dos cards
+
+function Footer() { //cria a função do footer
   return (
     <section id="links">
     <ul>
-      <li>
-        <a href="https://www.linkedin.com/in/nathalie-almeida/" target="_blank">
-        
-        </a>
-      </li>
-      <li>
-        <a href="https://codepen.io/natdrabik" target="_blank">
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/natdrabik" target="_blank">
-    
-        </a>
-      </li>
-      <li>
-        <a href="mailto:nathaliealmeida22@gmail.com" target="_blank">
-    
-      </a>
-      </li>
+      {footer.map((item, index) => (
+        <FooterItem key={index} {...item} />
+      ))}
     </ul>
   </section>
   );
 }
 
-export default Footer; //exporta a função do hero
+export default Footer; //exporta a função do footer

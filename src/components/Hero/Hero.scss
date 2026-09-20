@@ -12,3 +12,16 @@
     transform:  translate(-30cqw, 0px)
   }
 }
+
+@media (min-width: 600px) {
+#intro {
+    p {
+      font-size: 1.4cqw;
+    }
+
+    h1 .h1b {
+      margin-left: 2cqw;
+      transform:  translate(-14cqw, 0px)
+    }
+  }
+}

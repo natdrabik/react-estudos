@@ -166,6 +166,10 @@ section {
 }
 
 @media (min-width: 600px) {
+  section {
+    padding: 50px;
+  }
+
   h1 { 
     font-size: 6cqw;
   }

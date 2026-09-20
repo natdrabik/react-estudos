@@ -1,26 +1,26 @@
-#skills {
+#links {
   background-color: var(--foreground);
   background: radial-gradient(circle at 30% 10%, var(--primary-a0) 15%, var(--background) 150%);
-  /* grid-gap: 2cqw; */
-  container-type: inline-size;
+  grid-gap: 2cqw;
+  min-height: auto;
+  container-type: normal; 
 
   ul {
     display: flex;
-    grid-gap: 3cqw;
+    grid-gap: 10cqw;
     list-style: none;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     margin: 0;
     padding: 0;
-    width: auto;
   }
 }
 
 @media (min-width: 600px) {
-  #skills{
+    #links {
     ul {
-      grid-gap: 2.5cqw 4cqw;
-      width: 80cqw;
+      grid-gap: 2cqw;
+      justify-content: flex-start;
     }
   }
 }
